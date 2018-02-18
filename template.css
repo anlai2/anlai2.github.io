@@ -1,0 +1,41 @@
+body {
+	background-image: url("background.jpg");
+	font-family: times;
+	margin: 50px 100px;
+}
+
+h1,h2 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    background-color: #333;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
